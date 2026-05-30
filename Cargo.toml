@@ -1,0 +1,13 @@
+[package]
+name = "grand-pattern-store"
+version = "0.1.0"
+edition = "2021"
+description = "Persistence — binary, JSON, CSV formats + append-only tick log + snapshot/restore for Grand Pattern"
+license = "MIT"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "grand-pattern-store"
+path = "src/main.rs"
